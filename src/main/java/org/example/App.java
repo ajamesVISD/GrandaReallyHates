@@ -26,9 +26,9 @@ public class App {
             e.printStackTrace();
         }
 
-        Grandma grandma = new Betty();
-        System.out.println(grandma.getName());
-        System.out.println("Hello, I'm Grandma Betty");
+        Grandma grandma = new Gretchen();
+
+        System.out.println("Hello, I'm Grandma " + grandma.getName());
         System.out.println("Guess a word and I will tell you if I like it or not:");
         Scanner scan = new Scanner(System.in);
         int guessLeft = 5;
@@ -63,12 +63,5 @@ public class App {
      * @param str -- the String in question.
      * @return true if str has any consecutive letters that are identical; false if not.
      */
-//    public static boolean hasDoubleLetters(String str) {
-//        for (int i = 0; i < str.length() - 1; i++) {
-//            if (str.charAt(i) == str.charAt(i + 1)) {
-//                return true;
-//            }
-//        }
-//        return false;
-//    }
+
 }
