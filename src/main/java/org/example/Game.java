@@ -14,8 +14,6 @@ public class Game {
     public Game(WordList wordList) {
         this.wordList = wordList;
         addGrandma(new Ophelia());
-        addGrandma(new Vera());
-        addGrandma(new Betty());
         addGrandma(new Esme());
     }
 
