@@ -26,7 +26,7 @@ public class App {
             e.printStackTrace();
         }
 
-        Grandma grandma = new Gretchen();
+        Grandma grandma = new Barbara();
 
         System.out.println("Hello, I'm Grandma " + grandma.getName());
         System.out.println("Guess a word and I will tell you if I like it or not:");
