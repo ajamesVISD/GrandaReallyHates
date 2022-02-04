@@ -14,7 +14,4 @@ public class App
         Game game = new Game(new WordList());
         game.run();
     }
-
-
-
 }
